@@ -23,7 +23,7 @@ It will provide an access token and refresh token. This access token is required
  Method: GET
 
 ### retrieves specific sales record
- "http://127.0.0.1:8000/api/v1/sales/<id>/"
+ "http://127.0.0.1:8000/api/v1/sales/<:id>/"
  <br>
  Method: GET
  
@@ -33,6 +33,6 @@ It will provide an access token and refresh token. This access token is required
  Method: POST
  
 ### updates specific the sales record
- "http://127.0.0.1:8000/api/v1/sales/<id>"
+ "http://127.0.0.1:8000/api/v1/sales/<:id>"
  <br>
  Method: PUT
