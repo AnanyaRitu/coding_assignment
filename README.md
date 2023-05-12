@@ -14,7 +14,7 @@ Method: POST
 <br>
 requires email and password in the body
 <br>
-It will provide an access token and refresh token. This access token is required for authentication in all the apis other than the registration api.
+It will provide an access token and refresh token. This access token is required for authentication in all the apis other than the registration api. Access token lasts for 5 minutes and Refresh token lasts for 24 hours.
 
 ## Sales
 ### lists all the sales record
