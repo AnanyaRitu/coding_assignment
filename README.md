@@ -18,6 +18,21 @@ It will provide an access token and refresh token. This access token is required
 
 ## Sales
 ### lists all the sales record
- http://127.0.0.1:8000/api/v1/sales/"
+ http://127.0.0.1:8000/api/v1/sales/
  <br>
  Method: GET
+
+### retrieves specific sales record
+ http://127.0.0.1:8000/api/v1/sales/<id>
+ <br>
+ Method: GET
+ 
+### creates new sales record
+ http://127.0.0.1:8000/api/v1/sales/"
+ <br>
+ Method: POST
+ 
+### updates specific the sales record
+ http://127.0.0.1:8000/api/v1/sales/<id>"
+ <br>
+ Method: PUT
