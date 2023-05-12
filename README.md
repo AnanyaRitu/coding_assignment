@@ -36,3 +36,8 @@ It will provide an access token and refresh token. This access token is required
  "http://127.0.0.1:8000/api/v1/sales/<:id>"
  <br>
  Method: PUT
+ 
+## Sales Report
+http://127.0.0.1:8000/api/v1/sales_report/
+<br>
+Method: GET
